@@ -64,6 +64,10 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "LGoFsx7UciJTmZZNIuGVrR2gi1YxhCtOkQHS_pDxxsA",
+    other: {
+      "naver-site-verification":
+        "bd04031074126590d4a3df4b1354b84abec2c326",
+    },
   },
   category: "education",
 };
