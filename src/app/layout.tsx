@@ -62,6 +62,9 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+  verification: {
+    google: "LGoFsx7UciJTmZZNIuGVrR2gi1YxhCtOkQHS_pDxxsA",
+  },
   category: "education",
 };
 
