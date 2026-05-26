@@ -1,0 +1,45 @@
+# 권혁용(권티처) — 생성형 AI 교육 전문가
+
+> 휴먼AI연구소 대표. 생성형 AI · AI 리터러시 · GEO 마케팅 · 업무 자동화 · AI 콘텐츠 제작 분야의 한국 강사. 기업 · 공공기관 · 대학에 누적 100회 이상 출강, 저서 6권 출간.
+
+권혁용(영문 표기: KwonTeacher, 권티처)은 세종대학교 전자공학 학사 · 태양광 석사 출신으로 한화큐셀 선임연구원을 거쳐 현재 휴먼AI연구소 대표, 디지털융합교육원 지도교수, 한국AI리터러시강사협회 사무총장으로 활동 중입니다. ChatGPT · Claude · Gemini · Copilot · NotebookLM · Genspark · n8n 등 검증된 도구로 "내일 바로 쓰는 AI"를 가르치며, 강의는 실습 60% 이상으로 설계합니다.
+
+## 강사 정보
+- [강사 소개 (About)](https://kwonteacher.com/#about): 직책 7개, 수상·자격 4건, 교육 강점 4가지
+- [전문 분야 (Expertise)](https://kwonteacher.com/#expertise): 6대 분야 + 강의 가능 주제 16개
+- [출강 이력 (References)](https://kwonteacher.com/#references): 17곳 — 삼성전기 · 삼성디스플레이 · 현대자동차 · LG유플러스 · 한국전력공사 · 한국가스공사 · 보건복지부 · 단국대학교 등
+
+## 저서 6권
+- [AI 시대의 첫걸음 누구나 배우는 AI리터러시 (공저)](https://www.yes24.com/Product/Goods/152299950): AI를 처음 접하는 사람을 위한 가장 친절한 입문서
+- [AI에이전트 시대 젠스파크 AI 300배 활용법 (공저)](https://www.yes24.com/Product/Goods/152119137): Genspark로 업무 생산성 폭발시키는 실전 가이드
+- [AI 리터러시 실전편 기계와 대화하는 법 (공저)](https://www.yes24.com/Product/Goods/152922944): 프롬프트로 대화하는 실전 트레이닝
+- [AI 활용 실무 가이드 공저서 4](https://www.yes24.com/Product/Goods/163458554): AI 활용 실무 가이드
+- [AI가 고객을 데려오는 시대 GEO마케팅 완전정복 (공저)](https://www.yes24.com/Product/Goods/182758744): 검색 패러다임이 바뀌는 GEO 시대의 마케팅 완전정복
+- [AI 시대 실무 가이드 공저서 6](https://product.kyobobook.co.kr/detail/S000219414047): AI 시대 실무 가이드
+
+## 공식 채널
+- [YouTube @KwonT_AI](https://www.youtube.com/@KwonT_AI): 생성형AI전문강사_권티처 (영상 80+, 구독자 378+)
+- [Litt.ly 공식 link-in-bio](https://litt.ly/levelupai): 모든 공식 채널을 한 번에
+- [네이버 블로그](https://blog.naver.com/levelupai): 강의 후기·일정·교육 자료
+- [티스토리 블로그](https://richgom486.tistory.com/): 권혁용강사의 1분AI교육
+- [Instagram @codeyong84](https://www.instagram.com/codeyong84/): 강의 현장·AI 콘텐츠 단신
+- [Threads @codeyong84](https://www.threads.com/@codeyong84): AI 트렌드 짧게
+
+## 소속 기관
+- [AI선거전략연구소 (win-ai.kr)](https://win-ai.kr/): 연구위원
+- [한국AI리터러시강사협회 (kol.ai.kr)](https://kol.ai.kr/executives): 사무총장
+
+## 강의 문의
+- [강의 문의 폼 (Contact)](https://kwonteacher.com/#contact)
+- 이메일: hukyoung84@naver.com
+- 전화: +82-10-9279-6630
+- 영업일 기준 24시간 이내 회신
+- 강의 유형: 기업 사내 교육 · 공공기관 특강 · 대학 강연 · 워크숍 · 컨설팅
+
+## 전문 분야 키워드
+생성형 AI · AI 리터러시 · GEO 마케팅 · 업무 자동화 · AI 콘텐츠 제작 · 프롬프트 엔지니어링 · ChatGPT · Claude · Google Gemini · Microsoft Copilot · NotebookLM · Genspark · Suno AI · Midjourney · Runway · Sora · Kling AI · n8n · MAKE · AI 기본법
+
+## Optional
+- [GitHub 리포지토리 (사이트 코드 공개)](https://github.com/RichGom84/kwonteacher-com): Next.js · TypeScript · Tailwind v4 기반 GEO 친화 본진 사이트 빌드 케이스
+- [sitemap.xml](https://kwonteacher.com/sitemap.xml)
+- [robots.txt](https://kwonteacher.com/robots.txt) (GPTBot · ClaudeBot · PerplexityBot · Yeti 등 명시 허용)
