@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { NAV_ITEMS, SITE } from "@/data/site";
 
 export default function Header() {
@@ -10,9 +11,14 @@ export default function Header() {
           className="flex items-center gap-2.5 group"
           aria-label="권티처 홈페이지"
         >
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary text-black font-bold text-sm">
-            K
-          </span>
+          <Image
+            src="/logo.png"
+            alt="권티처 로고"
+            width={32}
+            height={32}
+            priority
+            className="h-8 w-8 rounded-md"
+          />
           <span className="font-bold text-base md:text-lg tracking-tight">
             <span className="text-text-primary">{SITE.author.name}</span>
             <span className="text-text-muted mx-1.5">·</span>
