@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SITE } from "@/data/site";
 
 export default function Footer() {
@@ -8,9 +9,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary text-black font-bold text-sm">
-                K
-              </span>
+              <Image
+                src="/logo.png"
+                alt="권티처 로고"
+                width={32}
+                height={32}
+                className="h-8 w-8 rounded-md"
+              />
               <span className="font-bold text-lg">
                 {SITE.author.name}{" "}
                 <span className="text-text-muted">· 권티처</span>
