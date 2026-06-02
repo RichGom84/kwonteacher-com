@@ -39,12 +39,11 @@ export const BOOKS: Book[] = [
   },
   {
     no: 4,
-    title: "공저서 (제목 확인 중)",
-    tagline: "AI 활용 실무 가이드 공저",
+    title: "전국민이 알아야 할 AI 리터러시",
+    tagline: "전국민 눈높이에 맞춘 AI 리터러시 교양서",
     store: "yes24",
     url: "https://www.yes24.com/Product/Goods/163458554",
     cover: "/books/book-4.jpg",
-    pending: true,
   },
   {
     no: 5,
@@ -56,12 +55,11 @@ export const BOOKS: Book[] = [
   },
   {
     no: 6,
-    title: "공저서 (제목 확인 중)",
-    tagline: "AI 시대 실무 가이드 공저",
+    title: "AI 활용 선거 전략",
+    tagline: "AI 실전 캠프 가이드",
     store: "kyobobook",
     url: "https://product.kyobobook.co.kr/detail/S000219414047",
     cover: "/books/book-6.jpg",
-    pending: true,
   },
   {
     no: 7,
