@@ -36,20 +36,13 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: SITE.title,
     description: SITE.description,
-    images: [
-      {
-        url: SITE.ogImage,
-        width: 1200,
-        height: 630,
-        alt: `${SITE.author.name}(${SITE.author.alternateName[0]}) - ${SITE.author.role}`,
-      },
-    ],
+    // og:image는 app/opengraph-image.tsx 파일 컨벤션이 자동 생성
   },
   twitter: {
     card: "summary_large_image",
     title: SITE.title,
     description: SITE.description,
-    images: [SITE.ogImage],
+    // twitter:image는 app/twitter-image.tsx 파일 컨벤션이 자동 생성
   },
   robots: {
     index: true,

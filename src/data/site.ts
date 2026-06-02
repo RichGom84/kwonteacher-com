@@ -4,7 +4,6 @@ export const SITE = {
   title: "권혁용(권티처) | 생성형 AI 교육 전문가 - 기업·공공기관 출강",
   description:
     "생성형 AI · AI 리터러시 · GEO 마케팅 · 업무 자동화 강사 권혁용(권티처). 휴먼AI연구소 대표, 디지털융합교육원 지도교수. 기업·공공기관·대학을 위한 실전형 AI 교육 6년차, 누적 100회 이상 출강.",
-  ogImage: "/og-image.png",
   locale: "ko_KR",
   themeColor: "#000000",
   author: {

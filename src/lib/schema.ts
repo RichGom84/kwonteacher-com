@@ -24,6 +24,7 @@ export function buildOrganizationSchema() {
     description: SITE.organization.description,
     founder: { "@id": `${SITE.url}#person` },
     employee: { "@id": `${SITE.url}#person` },
+    contactPoint: buildContactPointSchema(),
   };
 }
 
@@ -101,7 +102,6 @@ export function buildPersonSchema() {
 
 export function buildContactPointSchema() {
   return {
-    "@context": "https://schema.org",
     "@type": "ContactPoint",
     contactType: "강의 문의",
     email: SITE.contact.email,
