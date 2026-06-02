@@ -30,8 +30,8 @@ export default function Books() {
       <div className="mx-auto max-w-[1280px] px-6 md:px-8">
         <SectionTitle
           eyebrow="Publications"
-          title="저서 6권 — AI 리터러시부터 GEO 마케팅까지"
-          subtitle="현장에서 검증된 콘텐츠를 책으로 정리해 누적 6권을 출간했습니다."
+          title="저서 7권 — AI 리터러시부터 클로드 업무 자동화까지"
+          subtitle="현장에서 검증된 콘텐츠를 책으로 정리해 누적 7권을 출간했습니다."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">

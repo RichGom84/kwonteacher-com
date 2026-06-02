@@ -63,4 +63,12 @@ export const BOOKS: Book[] = [
     cover: "/books/book-6.jpg",
     pending: true,
   },
+  {
+    no: 7,
+    title: "기업 AI 자동화를 위한 클로드 AI 활용",
+    tagline: "클로드로 실현하는 업무 혁신과 생산성 극대화",
+    store: "yes24",
+    url: "https://www.yes24.com/Product/Goods/190211456",
+    cover: "/books/book-7.png",
+  },
 ];

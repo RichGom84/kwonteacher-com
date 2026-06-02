@@ -8,7 +8,7 @@ export const HERO_TAGS = [
 ];
 
 export const HERO_STATS = [
-  { label: "출간 저서", value: "6", suffix: "권" },
+  { label: "출간 저서", value: "7", suffix: "권" },
   { label: "유튜브 영상", value: "80", suffix: "+" },
   { label: "누적 출강", value: "100", suffix: "+" },
   { label: "수상·자격", value: "4", suffix: "건" },
