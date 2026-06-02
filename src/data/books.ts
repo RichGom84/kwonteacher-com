@@ -55,7 +55,7 @@ export const BOOKS: Book[] = [
   },
   {
     no: 6,
-    title: "AI 활용 선거 전략",
+    title: "AI 활용 선거전략 III",
     tagline: "AI 실전 캠프 가이드",
     store: "kyobobook",
     url: "https://product.kyobobook.co.kr/detail/S000219414047",
