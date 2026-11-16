@@ -190,14 +190,16 @@ function LogoCard({ item }: { item: ReferenceItem }) {
     <div className="group/card flex flex-col items-center justify-center gap-2 h-24 md:h-28 w-44 md:w-52 px-4 rounded-2xl bg-surface border border-border hover:border-primary hover:bg-surface-elevated hover:shadow-[0_0_0_3px_rgba(168,255,96,0.12)] transition-all cursor-default">
       {item.logo ? (
         <>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={`/logos/${item.logo}`}
-            alt={item.name}
-            className="h-7 md:h-8 w-auto max-w-[70%] object-contain opacity-60 group-hover/card:opacity-100 transition-opacity"
-            loading="lazy"
-          />
-          <span className="text-[11px] md:text-xs text-text-muted group-hover/card:text-primary transition-colors whitespace-nowrap">
+          <div className="flex items-center justify-center h-12 md:h-14 w-full rounded-xl bg-white px-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`/logos/${item.logo}`}
+              alt={item.name}
+              className="h-7 md:h-8 w-auto max-w-full object-contain"
+              loading="lazy"
+            />
+          </div>
+          <span className="text-[11px] md:text-xs text-text-muted group-hover/card:text-primary transition-colors whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
             {item.name}
           </span>
         </>

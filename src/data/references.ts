@@ -1,5 +1,5 @@
 // logo: public/logos/ 안의 파일명. 파일이 없으면 기관명 카드로 표시됩니다.
-// 로고 추가 방법: public/logos/에 투명 배경 SVG/PNG(흰색 단색 권장)를 넣고 logo 값을 적어 주세요.
+// 로고 추가 방법: public/logos/에 투명 배경 SVG/PNG(원본 컬러)를 넣고 logo 값을 적어 주세요.
 export type ReferenceItem = { name: string; logo?: string };
 
 export const REFERENCES: { category: "기업" | "공공기관" | "대학·교육기관"; items: ReferenceItem[] }[] = [
@@ -9,12 +9,12 @@ export const REFERENCES: { category: "기업" | "공공기관" | "대학·교육
       { name: "삼성전기 수원", logo: "samsung.svg" },
       { name: "삼성디스플레이 아산·기흥", logo: "samsung.svg" },
       { name: "삼성생명", logo: "samsung.svg" },
-      { name: "삼성물산", logo: "samsung.svg" },
+      { name: "삼성물산", logo: "samsungcnt.svg" },
       { name: "현대자동차 울산", logo: "hyundai.svg" },
-      { name: "LG유플러스 마곡", logo: "lg.svg" },
+      { name: "LG유플러스 마곡", logo: "lguplus.svg" },
       { name: "LG 임원 전직지원", logo: "lg.svg" },
-      { name: "포스코" },
-      { name: "HJ중공업" },
+      { name: "포스코", logo: "posco.svg" },
+      { name: "HJ중공업", logo: "hj.png" },
       { name: "SH에너지화학" },
       { name: "방산업체 (경남 사천)" },
       { name: "세오로보틱스 AI연구소" },
@@ -26,12 +26,12 @@ export const REFERENCES: { category: "기업" | "공공기관" | "대학·교육
   {
     category: "공공기관",
     items: [
-      { name: "한국전력공사 나주본사" },
-      { name: "한국전력공사 경남본부" },
-      { name: "한국가스공사 경기본부" },
+      { name: "한국전력공사 나주본사", logo: "kepco.svg" },
+      { name: "한국전력공사 경남본부", logo: "kepco.svg" },
+      { name: "한국가스공사 경기본부", logo: "kogas.svg" },
       { name: "한국남부발전" },
       { name: "도로교통공단" },
-      { name: "질병관리청" },
+      { name: "질병관리청", logo: "kdca.svg" },
       { name: "한국언론진흥재단" },
       { name: "한국보건복지인재원" },
       { name: "대한산업보건협회" },
@@ -55,9 +55,9 @@ export const REFERENCES: { category: "기업" | "공공기관" | "대학·교육
   {
     category: "대학·교육기관",
     items: [
-      { name: "단국대학교 프롬프트 엔지니어링" },
-      { name: "동국대학교 AICEO 최고위과정" },
-      { name: "동덕여자대학교" },
+      { name: "단국대학교 프롬프트 엔지니어링", logo: "dankook.png" },
+      { name: "동국대학교 AICEO 최고위과정", logo: "dongguk.png" },
+      { name: "동덕여자대학교", logo: "dongduk.png" },
       { name: "경기과학기술대학교 CEO과정" },
       { name: "호산대학교 외국인 과정" },
       { name: "공주시민대학" },
