@@ -7,7 +7,7 @@
 ## 강사 정보
 - [강사 소개 (About)](https://kwonteacher.com/#about): 직책 7개, 수상·자격 4건, 교육 강점 4가지
 - [전문 분야 (Expertise)](https://kwonteacher.com/#expertise): 6대 분야 + 강의 가능 주제 16개
-- [출강 이력 (References)](https://kwonteacher.com/#references): 17곳 — 삼성전기 · 삼성디스플레이 · 현대자동차 · LG유플러스 · 한국전력공사 · 한국가스공사 · 보건복지부 · 단국대학교 등
+- [출강 이력 (References)](https://kwonteacher.com/#references): 46곳 — 삼성전기 · 삼성디스플레이 · 삼성생명 · 삼성물산 · 현대자동차 · LG유플러스 · 포스코 · 한국전력공사 · 한국가스공사 · 질병관리청 · 한국보건복지인재원 · 도로교통공단 · 단국대학교 등
 
 ## 저서 6권
 - [AI 시대의 첫걸음 누구나 배우는 AI리터러시 (공저)](https://www.yes24.com/Product/Goods/152299950): AI를 처음 접하는 사람을 위한 가장 친절한 입문서

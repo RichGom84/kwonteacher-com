@@ -1,5 +1,5 @@
 import SectionTitle from "@/components/ui/SectionTitle";
-import { REFERENCES } from "@/data/references";
+import { REFERENCES, type ReferenceItem } from "@/data/references";
 
 type CategoryName = (typeof REFERENCES)[number]["category"];
 
@@ -33,7 +33,7 @@ export default function References() {
         <SectionTitle
           eyebrow="References"
           title="검증된 출강 이력"
-          subtitle={`삼성·LG·현대 등 대기업부터 한국전력공사·보건복지부까지, 누적 ${total}곳 이상의 기관·기업·대학에서 강의했습니다.`}
+          subtitle={`삼성·LG·현대 등 대기업부터 한국전력공사·질병관리청까지, 누적 ${total}곳 이상의 기관·기업·대학에서 강의했습니다.`}
         />
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-12 md:mb-16">
@@ -111,7 +111,7 @@ export default function References() {
         </div>
 
         <p className="mt-10 text-xs text-text-muted text-center">
-          마우스를 올리면 흐름이 멈춥니다 · 출강 기관의 정식 로고는 사용 협의 후 추후 게재 예정입니다.
+          마우스를 올리면 흐름이 멈춥니다
         </p>
       </div>
     </section>
@@ -126,7 +126,7 @@ function MarqueeRow({
   rowIdx,
 }: {
   category: CategoryName;
-  items: readonly string[];
+  items: readonly ReferenceItem[];
   direction: "left" | "right";
   durationSec: number;
   rowIdx: number;
@@ -171,12 +171,12 @@ function MarqueeRow({
           className={`flex w-max gap-3 md:gap-4 px-3 ${trackClass}`}
           style={{ ["--marquee-duration" as string]: `${durationSec}s` }}
         >
-          {items2x.map((name, i) => (
+          {items2x.map((item, i) => (
             <li
-              key={`${rowIdx}-${name}-${i}`}
+              key={`${rowIdx}-${item.name}-${i}`}
               aria-hidden={i >= items.length ? "true" : undefined}
             >
-              <Chip name={name} category={category} idx={i} />
+              <LogoCard item={item} />
             </li>
           ))}
         </ul>
@@ -185,29 +185,27 @@ function MarqueeRow({
   );
 }
 
-function Chip({
-  name,
-  category,
-  idx,
-}: {
-  name: string;
-  category: CategoryName;
-  idx: number;
-}) {
+function LogoCard({ item }: { item: ReferenceItem }) {
   return (
-    <div
-      className="group/chip relative inline-flex items-center gap-3 h-14 md:h-16 px-5 md:px-6 rounded-full bg-surface border border-border text-text-primary text-sm md:text-base font-semibold whitespace-nowrap hover:border-primary hover:bg-surface-elevated hover:text-primary hover:shadow-[0_0_0_3px_rgba(168,255,96,0.12)] transition-all cursor-default"
-    >
-      <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-black/40 text-primary text-[10px] font-mono group-hover/chip:bg-primary group-hover/chip:text-black transition-colors">
-        {String((idx % 99) + 1).padStart(2, "0")}
-      </span>
-      <span>{name}</span>
-      <span
-        aria-hidden="true"
-        className="text-[10px] font-mono text-text-muted group-hover/chip:text-primary/70 transition-colors"
-      >
-        {category}
-      </span>
+    <div className="group/card flex flex-col items-center justify-center gap-2 h-24 md:h-28 w-44 md:w-52 px-4 rounded-2xl bg-surface border border-border hover:border-primary hover:bg-surface-elevated hover:shadow-[0_0_0_3px_rgba(168,255,96,0.12)] transition-all cursor-default">
+      {item.logo ? (
+        <>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`/logos/${item.logo}`}
+            alt={item.name}
+            className="h-7 md:h-8 w-auto max-w-[70%] object-contain opacity-60 group-hover/card:opacity-100 transition-opacity"
+            loading="lazy"
+          />
+          <span className="text-[11px] md:text-xs text-text-muted group-hover/card:text-primary transition-colors whitespace-nowrap">
+            {item.name}
+          </span>
+        </>
+      ) : (
+        <span className="text-center text-sm md:text-[15px] font-bold leading-snug text-text-secondary group-hover/card:text-primary transition-colors break-keep">
+          {item.name}
+        </span>
+      )}
     </div>
   );
 }
